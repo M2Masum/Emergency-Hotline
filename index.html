@@ -4,8 +4,736 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Emergency-Hotline</title>
+<link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+<header>
+    <navBar class="flex justify-between mr-5 ml-5 mt-2.5 mb-2.5">
+        <div class="flex">
+        <img src="assets/logo.png" alt="" class="w-18 mr-2.5">
+        <div class="flex items-center"><h1 class="text-3xl font-bold text-[#006747]">Emergency <br> Service</h1></div>
+        </div>
+
+        <div class="flex items-center gap-3">
+            <div id="heart" class="btn font-bold bg-[#ecfff0] border-0 rounded-3xl gap-1">0 <img class="w-7" src="assets/heart.png" alt=""></div>
+            <div id="coin" class="btn font-bold bg-[#ecfff0] border-0 rounded-3xl gap-1">110 <img class="w-7" src="assets/coin.png" alt=""></div>
+            <div class="btn text-white font-semibold bg-[#00A63E] border-0 rounded-3xl gap-1">0 <span>Copy</span></div>
+        </div>
+    </navBar>
+
+    <div class="bg-gradient-to-l from-[#013223] via-[#006747] to-[#013223] grid grid-flow-row justify-items-center-safe p-3.5">
+       <img class="w-36" src="assets/logo-dark.png" alt="">
+       <h1 class="font-hind font-bold text-4xl text-white">Emergency Service Directory</h1>
+       <h6 class="font-hind font-semibold text-2xl text-white text-center">Government Emergency Services at Your Fingertip – A Project by  Government of the People’s Republic of Bangladesh</h6>
+    </div>
+</header>
+
+<main class="bg-[#f5fff6]">
+<div class=" w-12/12 mx-auto grid grid-cols-10 gap-2 mr-5 ml-5 mt-5 mb-5">
+  <section id="hotline" class="col-span-7 grid grid-cols-3">
+
+
+
+  <div class="bg-white rounded-2xl shadow-md p-4 m-2">
+    <!-- Header -->
+    <div class="flex justify-between items-center">
+      <div class="flex items-center justify-center w-16 h-16 rounded-xl bg-[#FFE3E2]">
+        <img class="w-12 h-12" src="assets/emergency.png" alt="">
+      </div>
+      <button class="favourite">
+        <svg xmlns="http://www.w3.org/2000/svg" height="36px" viewBox="0 -960 960 960" width="36px" fill="gray"><path d="m480-120-58-52q-101-91-167-157T150-447.5Q111-500 95.5-544T80-634q0-94 63-157t157-63q52 0 99 22t81 62q34-40 81-62t99-22q94 0 157 63t63 157q0 46-15.5 90T810-447.5Q771-395 705-329T538-172l-58 52Zm0-108q96-86 158-147.5t98-107q36-45.5 50-81t14-70.5q0-60-40-100t-100-40q-47 0-87 26.5T518-680h-76q-15-41-55-67.5T300-774q-60 0-100 40t-40 100q0 35 14 70.5t50 81q36 45.5 98 107T480-228Zm0-273Z"/></svg>
+      </button>
+    </div>
+
+    <!-- Content -->
+    <div class="mt-3">
+      <h2 class="font-hind font-bold text-lg">National Emergency Number</h2>
+      <p class="font-roboto text-gray-500 text-sm">National Emergency</p>
+      <p class="text-3xl font-bold mt-3">999</p>
+      <span class="inline-block bg-gray-100 text-gray-600 text-sm px-3 py-1 rounded-full mt-2">
+        All
+      </span>
+    </div>
+
+    <!-- Actions -->
+    <div class="flex items-center gap-3 mt-4">
+      <button class="copy flex-1 border border-gray-300 text-gray-500 rounded-lg py-2 flex items-center justify-center gap-2 hover:bg-gray-50">
+        <span><svg fill="" width="16px" height="16px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="icon line" transform="rotate(180)matrix(-1, 0, 0, 1, 0, 0)" stroke="">
+
+<g id="SVGRepo_bgCarrier" stroke-width="0"/>
+
+<g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/>
+
+<g id="SVGRepo_iconCarrier">
+
+<path id="primary" d="M15,17v3a1,1,0,0,1-1,1H4a1,1,0,0,1-1-1V8A1,1,0,0,1,4,7H7" style="fill: none; stroke: gray; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1.5;"/>
+
+<rect id="primary-2" data-name="primary" x="7" y="3" width="12" height="14" rx="1" style="fill: none; stroke: gray; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1.5;"/>
+
+</g>
+
+</svg></span> Copy
+      </button>
+      <button class="call flex-1 bg-green-500 text-white rounded-lg py-2 flex items-center justify-center gap-2 hover:bg-green-600">
+        <span><svg height="18px" width="18px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+	 viewBox="0 0 202.592 202.592">
+<g>
+	<g>
+		<path style="fill:#fff;" d="M198.048,160.105l-31.286-31.29c-6.231-6.206-16.552-6.016-23.001,0.433l-15.761,15.761
+			c-0.995-0.551-2.026-1.124-3.11-1.732c-9.953-5.515-23.577-13.074-37.914-27.421C72.599,101.48,65.03,87.834,59.5,77.874
+			c-0.587-1.056-1.145-2.072-1.696-3.038l10.579-10.565l5.2-5.207c6.46-6.46,6.639-16.778,0.419-23.001L42.715,4.769
+			c-6.216-6.216-16.541-6.027-23.001,0.433l-8.818,8.868l0.243,0.24c-2.956,3.772-5.429,8.124-7.265,12.816
+			c-1.696,4.466-2.752,8.729-3.235,12.998c-4.13,34.25,11.52,65.55,53.994,108.028c58.711,58.707,106.027,54.273,108.067,54.055
+			c4.449-0.53,8.707-1.593,13.038-3.275c4.652-1.818,9.001-4.284,12.769-7.233l0.193,0.168l8.933-8.747
+			C204.079,176.661,204.265,166.343,198.048,160.105z M190.683,176.164l-3.937,3.93l-1.568,1.507
+			c-2.469,2.387-6.743,5.74-12.984,8.181c-3.543,1.364-7.036,2.24-10.59,2.663c-0.447,0.043-44.95,3.84-100.029-51.235
+			C14.743,94.38,7.238,67.395,10.384,41.259c0.394-3.464,1.263-6.95,2.652-10.593c2.462-6.277,5.812-10.547,8.181-13.02l5.443-5.497
+			c2.623-2.63,6.714-2.831,9.112-0.433l31.286,31.286c2.394,2.401,2.205,6.492-0.422,9.13L45.507,73.24l1.95,3.282
+			c1.084,1.829,2.23,3.879,3.454,6.106c5.812,10.482,13.764,24.83,29.121,40.173c15.317,15.325,29.644,23.27,40.094,29.067
+			c2.258,1.249,4.32,2.398,6.17,3.5l3.289,1.95l21.115-21.122c2.634-2.623,6.739-2.817,9.137-0.426l31.272,31.279
+			C193.5,169.446,193.31,173.537,190.683,176.164z"/>
+	</g>
+</g>
+</svg></span> Call
+      </button>
+    </div>
+  </div>
+  <div class="bg-white rounded-2xl shadow-md p-4 m-2">
+    <!-- Header -->
+    <div class="flex justify-between items-center">
+      <div class="flex items-center justify-center w-16 h-16 rounded-xl bg-[#DFEFFF]">
+        <img class="w-12 h-12" src="assets/police.png" alt="">
+      </div>
+      <button class="favourite">
+        <svg xmlns="http://www.w3.org/2000/svg" height="36px" viewBox="0 -960 960 960" width="36px" fill="gray"><path d="m480-120-58-52q-101-91-167-157T150-447.5Q111-500 95.5-544T80-634q0-94 63-157t157-63q52 0 99 22t81 62q34-40 81-62t99-22q94 0 157 63t63 157q0 46-15.5 90T810-447.5Q771-395 705-329T538-172l-58 52Zm0-108q96-86 158-147.5t98-107q36-45.5 50-81t14-70.5q0-60-40-100t-100-40q-47 0-87 26.5T518-680h-76q-15-41-55-67.5T300-774q-60 0-100 40t-40 100q0 35 14 70.5t50 81q36 45.5 98 107T480-228Zm0-273Z"/></svg>
+      </button>
+    </div>
+
+    <!-- Content -->
+    <div class="mt-3">
+      <h2 class="font-hind font-bold text-lg">Police Helpline Number</h2>
+      <p class="font-roboto text-gray-500 text-sm">Police</p>
+      <p class="text-3xl font-bold mt-3">999</p>
+      <span class="inline-block bg-gray-100 text-gray-600 text-sm px-3 py-1 rounded-full mt-2">
+        Police
+      </span>
+    </div>
+
+    <!-- Actions -->
+    <div class="flex items-center gap-3 mt-4">
+      <button class="copy flex-1 border border-gray-300 text-gray-500 rounded-lg py-2 flex items-center justify-center gap-2 hover:bg-gray-50">
+        <span><svg fill="" width="16px" height="16px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="icon line" transform="rotate(180)matrix(-1, 0, 0, 1, 0, 0)" stroke="">
+
+<g id="SVGRepo_bgCarrier" stroke-width="0"/>
+
+<g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/>
+
+<g id="SVGRepo_iconCarrier">
+
+<path id="primary" d="M15,17v3a1,1,0,0,1-1,1H4a1,1,0,0,1-1-1V8A1,1,0,0,1,4,7H7" style="fill: none; stroke: gray; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1.5;"/>
+
+<rect id="primary-2" data-name="primary" x="7" y="3" width="12" height="14" rx="1" style="fill: none; stroke: gray; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1.5;"/>
+
+</g>
+
+</svg></span> Copy
+      </button>
+      <button class="call flex-1 bg-green-500 text-white rounded-lg py-2 flex items-center justify-center gap-2 hover:bg-green-600">
+        <span><svg height="18px" width="18px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+	 viewBox="0 0 202.592 202.592">
+<g>
+	<g>
+		<path style="fill:#fff;" d="M198.048,160.105l-31.286-31.29c-6.231-6.206-16.552-6.016-23.001,0.433l-15.761,15.761
+			c-0.995-0.551-2.026-1.124-3.11-1.732c-9.953-5.515-23.577-13.074-37.914-27.421C72.599,101.48,65.03,87.834,59.5,77.874
+			c-0.587-1.056-1.145-2.072-1.696-3.038l10.579-10.565l5.2-5.207c6.46-6.46,6.639-16.778,0.419-23.001L42.715,4.769
+			c-6.216-6.216-16.541-6.027-23.001,0.433l-8.818,8.868l0.243,0.24c-2.956,3.772-5.429,8.124-7.265,12.816
+			c-1.696,4.466-2.752,8.729-3.235,12.998c-4.13,34.25,11.52,65.55,53.994,108.028c58.711,58.707,106.027,54.273,108.067,54.055
+			c4.449-0.53,8.707-1.593,13.038-3.275c4.652-1.818,9.001-4.284,12.769-7.233l0.193,0.168l8.933-8.747
+			C204.079,176.661,204.265,166.343,198.048,160.105z M190.683,176.164l-3.937,3.93l-1.568,1.507
+			c-2.469,2.387-6.743,5.74-12.984,8.181c-3.543,1.364-7.036,2.24-10.59,2.663c-0.447,0.043-44.95,3.84-100.029-51.235
+			C14.743,94.38,7.238,67.395,10.384,41.259c0.394-3.464,1.263-6.95,2.652-10.593c2.462-6.277,5.812-10.547,8.181-13.02l5.443-5.497
+			c2.623-2.63,6.714-2.831,9.112-0.433l31.286,31.286c2.394,2.401,2.205,6.492-0.422,9.13L45.507,73.24l1.95,3.282
+			c1.084,1.829,2.23,3.879,3.454,6.106c5.812,10.482,13.764,24.83,29.121,40.173c15.317,15.325,29.644,23.27,40.094,29.067
+			c2.258,1.249,4.32,2.398,6.17,3.5l3.289,1.95l21.115-21.122c2.634-2.623,6.739-2.817,9.137-0.426l31.272,31.279
+			C193.5,169.446,193.31,173.537,190.683,176.164z"/>
+	</g>
+</g>
+</svg></span> Call
+      </button>
+    </div>
+  </div>
+  <div class="bg-white rounded-2xl shadow-md p-4 m-2">
+    <!-- Header -->
+    <div class="flex justify-between items-center">
+      <div class="flex items-center justify-center w-16 h-16 rounded-xl bg-red-100">
+        <img class="w-12 h-12" src="assets/fire-service.png" alt="">
+      </div>
+      <button class="favourite">
+        <svg xmlns="http://www.w3.org/2000/svg" height="36px" viewBox="0 -960 960 960" width="36px" fill="gray"><path d="m480-120-58-52q-101-91-167-157T150-447.5Q111-500 95.5-544T80-634q0-94 63-157t157-63q52 0 99 22t81 62q34-40 81-62t99-22q94 0 157 63t63 157q0 46-15.5 90T810-447.5Q771-395 705-329T538-172l-58 52Zm0-108q96-86 158-147.5t98-107q36-45.5 50-81t14-70.5q0-60-40-100t-100-40q-47 0-87 26.5T518-680h-76q-15-41-55-67.5T300-774q-60 0-100 40t-40 100q0 35 14 70.5t50 81q36 45.5 98 107T480-228Zm0-273Z"/></svg>
+      </button>
+    </div>
+
+    <!-- Content -->
+    <div class="mt-3">
+      <h2 class="font-hind font-bold text-lg">Fire Service Number</h2>
+      <p class="font-roboto text-gray-500 text-sm">Fire Service</p>
+      <p class="text-3xl font-bold mt-3">999</p>
+      <span class="inline-block bg-gray-100 text-gray-600 text-sm px-3 py-1 rounded-full mt-2">
+        Fire
+      </span>
+    </div>
+
+    <!-- Actions -->
+    <div class="flex items-center gap-3 mt-4">
+      <button class="copy flex-1 border border-gray-300 text-gray-500 rounded-lg py-2 flex items-center justify-center gap-2 hover:bg-gray-50">
+        <span><svg fill="" width="16px" height="16px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="icon line" transform="rotate(180)matrix(-1, 0, 0, 1, 0, 0)" stroke="">
+
+<g id="SVGRepo_bgCarrier" stroke-width="0"/>
+
+<g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/>
+
+<g id="SVGRepo_iconCarrier">
+
+<path id="primary" d="M15,17v3a1,1,0,0,1-1,1H4a1,1,0,0,1-1-1V8A1,1,0,0,1,4,7H7" style="fill: none; stroke: gray; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1.5;"/>
+
+<rect id="primary-2" data-name="primary" x="7" y="3" width="12" height="14" rx="1" style="fill: none; stroke: gray; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1.5;"/>
+
+</g>
+
+</svg></span> Copy
+      </button>
+      <button class="call flex-1 bg-green-500 text-white rounded-lg py-2 flex items-center justify-center gap-2 hover:bg-green-600">
+        <span><svg height="18px" width="18px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+	 viewBox="0 0 202.592 202.592">
+<g>
+	<g>
+		<path style="fill:#fff;" d="M198.048,160.105l-31.286-31.29c-6.231-6.206-16.552-6.016-23.001,0.433l-15.761,15.761
+			c-0.995-0.551-2.026-1.124-3.11-1.732c-9.953-5.515-23.577-13.074-37.914-27.421C72.599,101.48,65.03,87.834,59.5,77.874
+			c-0.587-1.056-1.145-2.072-1.696-3.038l10.579-10.565l5.2-5.207c6.46-6.46,6.639-16.778,0.419-23.001L42.715,4.769
+			c-6.216-6.216-16.541-6.027-23.001,0.433l-8.818,8.868l0.243,0.24c-2.956,3.772-5.429,8.124-7.265,12.816
+			c-1.696,4.466-2.752,8.729-3.235,12.998c-4.13,34.25,11.52,65.55,53.994,108.028c58.711,58.707,106.027,54.273,108.067,54.055
+			c4.449-0.53,8.707-1.593,13.038-3.275c4.652-1.818,9.001-4.284,12.769-7.233l0.193,0.168l8.933-8.747
+			C204.079,176.661,204.265,166.343,198.048,160.105z M190.683,176.164l-3.937,3.93l-1.568,1.507
+			c-2.469,2.387-6.743,5.74-12.984,8.181c-3.543,1.364-7.036,2.24-10.59,2.663c-0.447,0.043-44.95,3.84-100.029-51.235
+			C14.743,94.38,7.238,67.395,10.384,41.259c0.394-3.464,1.263-6.95,2.652-10.593c2.462-6.277,5.812-10.547,8.181-13.02l5.443-5.497
+			c2.623-2.63,6.714-2.831,9.112-0.433l31.286,31.286c2.394,2.401,2.205,6.492-0.422,9.13L45.507,73.24l1.95,3.282
+			c1.084,1.829,2.23,3.879,3.454,6.106c5.812,10.482,13.764,24.83,29.121,40.173c15.317,15.325,29.644,23.27,40.094,29.067
+			c2.258,1.249,4.32,2.398,6.17,3.5l3.289,1.95l21.115-21.122c2.634-2.623,6.739-2.817,9.137-0.426l31.272,31.279
+			C193.5,169.446,193.31,173.537,190.683,176.164z"/>
+	</g>
+</g>
+</svg></span> Call
+      </button>
+    </div>
+  </div>
+  <div class="bg-white rounded-2xl shadow-md p-4 m-2">
+    <!-- Header -->
+    <div class="flex justify-between items-center">
+      <div class="flex items-center justify-center w-16 h-16 rounded-xl bg-red-100">
+        <img class="w-12 h-12" src="assets/ambulance.png" alt="">
+      </div>
+      <button class="favourite">
+        <svg xmlns="http://www.w3.org/2000/svg" height="36px" viewBox="0 -960 960 960" width="36px" fill="gray"><path d="m480-120-58-52q-101-91-167-157T150-447.5Q111-500 95.5-544T80-634q0-94 63-157t157-63q52 0 99 22t81 62q34-40 81-62t99-22q94 0 157 63t63 157q0 46-15.5 90T810-447.5Q771-395 705-329T538-172l-58 52Zm0-108q96-86 158-147.5t98-107q36-45.5 50-81t14-70.5q0-60-40-100t-100-40q-47 0-87 26.5T518-680h-76q-15-41-55-67.5T300-774q-60 0-100 40t-40 100q0 35 14 70.5t50 81q36 45.5 98 107T480-228Zm0-273Z"/></svg>
+      </button>
+    </div>
+
+    <!-- Content -->
+    <div class="mt-3">
+      <h2 class="font-hind font-bold text-lg">Ambulance Service</h2>
+      <p class="font-roboto text-gray-500 text-sm">Ambulance</p>
+      <p class="text-3xl font-bold mt-3">1994-999999</p>
+      <span class="inline-block bg-gray-100 text-gray-600 text-sm px-3 py-1 rounded-full mt-2">
+        Health
+      </span>
+    </div>
+
+    <!-- Actions -->
+    <div class="flex items-center gap-3 mt-4">
+      <button class="copy flex-1 border border-gray-300 text-gray-500 rounded-lg py-2 flex items-center justify-center gap-2 hover:bg-gray-50">
+        <span><svg fill="" width="16px" height="16px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="icon line" transform="rotate(180)matrix(-1, 0, 0, 1, 0, 0)" stroke="">
+
+<g id="SVGRepo_bgCarrier" stroke-width="0"/>
+
+<g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/>
+
+<g id="SVGRepo_iconCarrier">
+
+<path id="primary" d="M15,17v3a1,1,0,0,1-1,1H4a1,1,0,0,1-1-1V8A1,1,0,0,1,4,7H7" style="fill: none; stroke: gray; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1.5;"/>
+
+<rect id="primary-2" data-name="primary" x="7" y="3" width="12" height="14" rx="1" style="fill: none; stroke: gray; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1.5;"/>
+
+</g>
+
+</svg></span> Copy
+      </button>
+      <button class="call flex-1 bg-green-500 text-white rounded-lg py-2 flex items-center justify-center gap-2 hover:bg-green-600">
+        <span><svg height="18px" width="18px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+	 viewBox="0 0 202.592 202.592">
+<g>
+	<g>
+		<path style="fill:#fff;" d="M198.048,160.105l-31.286-31.29c-6.231-6.206-16.552-6.016-23.001,0.433l-15.761,15.761
+			c-0.995-0.551-2.026-1.124-3.11-1.732c-9.953-5.515-23.577-13.074-37.914-27.421C72.599,101.48,65.03,87.834,59.5,77.874
+			c-0.587-1.056-1.145-2.072-1.696-3.038l10.579-10.565l5.2-5.207c6.46-6.46,6.639-16.778,0.419-23.001L42.715,4.769
+			c-6.216-6.216-16.541-6.027-23.001,0.433l-8.818,8.868l0.243,0.24c-2.956,3.772-5.429,8.124-7.265,12.816
+			c-1.696,4.466-2.752,8.729-3.235,12.998c-4.13,34.25,11.52,65.55,53.994,108.028c58.711,58.707,106.027,54.273,108.067,54.055
+			c4.449-0.53,8.707-1.593,13.038-3.275c4.652-1.818,9.001-4.284,12.769-7.233l0.193,0.168l8.933-8.747
+			C204.079,176.661,204.265,166.343,198.048,160.105z M190.683,176.164l-3.937,3.93l-1.568,1.507
+			c-2.469,2.387-6.743,5.74-12.984,8.181c-3.543,1.364-7.036,2.24-10.59,2.663c-0.447,0.043-44.95,3.84-100.029-51.235
+			C14.743,94.38,7.238,67.395,10.384,41.259c0.394-3.464,1.263-6.95,2.652-10.593c2.462-6.277,5.812-10.547,8.181-13.02l5.443-5.497
+			c2.623-2.63,6.714-2.831,9.112-0.433l31.286,31.286c2.394,2.401,2.205,6.492-0.422,9.13L45.507,73.24l1.95,3.282
+			c1.084,1.829,2.23,3.879,3.454,6.106c5.812,10.482,13.764,24.83,29.121,40.173c15.317,15.325,29.644,23.27,40.094,29.067
+			c2.258,1.249,4.32,2.398,6.17,3.5l3.289,1.95l21.115-21.122c2.634-2.623,6.739-2.817,9.137-0.426l31.272,31.279
+			C193.5,169.446,193.31,173.537,190.683,176.164z"/>
+	</g>
+</g>
+</svg></span> Call
+      </button>
+    </div>
+  </div>
+  <div class="bg-white rounded-2xl shadow-md p-4 m-2">
+    <!-- Header -->
+    <div class="flex justify-between items-center">
+      <div class="flex items-center justify-center w-16 h-16 rounded-xl bg-red-100">
+        <img class="w-12 h-12" src="assets/emergency.png" alt="">
+      </div>
+      <button class="favourite">
+        <svg xmlns="http://www.w3.org/2000/svg" height="36px" viewBox="0 -960 960 960" width="36px" fill="gray"><path d="m480-120-58-52q-101-91-167-157T150-447.5Q111-500 95.5-544T80-634q0-94 63-157t157-63q52 0 99 22t81 62q34-40 81-62t99-22q94 0 157 63t63 157q0 46-15.5 90T810-447.5Q771-395 705-329T538-172l-58 52Zm0-108q96-86 158-147.5t98-107q36-45.5 50-81t14-70.5q0-60-40-100t-100-40q-47 0-87 26.5T518-680h-76q-15-41-55-67.5T300-774q-60 0-100 40t-40 100q0 35 14 70.5t50 81q36 45.5 98 107T480-228Zm0-273Z"/></svg>
+      </button>
+    </div>
+
+    <!-- Content -->
+    <div class="mt-3">
+      <h2 class="font-hind font-bold text-lg">Women & Child Helpline</h2>
+      <p class="font-roboto text-gray-500 text-sm">Women & Child Helpline</p>
+      <p class="text-3xl font-bold mt-3">109</p>
+      <span class="inline-block bg-gray-100 text-gray-600 text-sm px-3 py-1 rounded-full mt-2">
+        Help
+      </span>
+    </div>
+
+    <!-- Actions -->
+    <div class="flex items-center gap-3 mt-4">
+      <button class="copy flex-1 border border-gray-300 text-gray-500 rounded-lg py-2 flex items-center justify-center gap-2 hover:bg-gray-50">
+        <span><svg fill="" width="16px" height="16px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="icon line" transform="rotate(180)matrix(-1, 0, 0, 1, 0, 0)" stroke="">
+
+<g id="SVGRepo_bgCarrier" stroke-width="0"/>
+
+<g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/>
+
+<g id="SVGRepo_iconCarrier">
+
+<path id="primary" d="M15,17v3a1,1,0,0,1-1,1H4a1,1,0,0,1-1-1V8A1,1,0,0,1,4,7H7" style="fill: none; stroke: gray; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1.5;"/>
+
+<rect id="primary-2" data-name="primary" x="7" y="3" width="12" height="14" rx="1" style="fill: none; stroke: gray; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1.5;"/>
+
+</g>
+
+</svg></span> Copy
+      </button>
+      <button class="call flex-1 bg-green-500 text-white rounded-lg py-2 flex items-center justify-center gap-2 hover:bg-green-600">
+        <span><svg height="18px" width="18px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+	 viewBox="0 0 202.592 202.592">
+<g>
+	<g>
+		<path style="fill:#fff;" d="M198.048,160.105l-31.286-31.29c-6.231-6.206-16.552-6.016-23.001,0.433l-15.761,15.761
+			c-0.995-0.551-2.026-1.124-3.11-1.732c-9.953-5.515-23.577-13.074-37.914-27.421C72.599,101.48,65.03,87.834,59.5,77.874
+			c-0.587-1.056-1.145-2.072-1.696-3.038l10.579-10.565l5.2-5.207c6.46-6.46,6.639-16.778,0.419-23.001L42.715,4.769
+			c-6.216-6.216-16.541-6.027-23.001,0.433l-8.818,8.868l0.243,0.24c-2.956,3.772-5.429,8.124-7.265,12.816
+			c-1.696,4.466-2.752,8.729-3.235,12.998c-4.13,34.25,11.52,65.55,53.994,108.028c58.711,58.707,106.027,54.273,108.067,54.055
+			c4.449-0.53,8.707-1.593,13.038-3.275c4.652-1.818,9.001-4.284,12.769-7.233l0.193,0.168l8.933-8.747
+			C204.079,176.661,204.265,166.343,198.048,160.105z M190.683,176.164l-3.937,3.93l-1.568,1.507
+			c-2.469,2.387-6.743,5.74-12.984,8.181c-3.543,1.364-7.036,2.24-10.59,2.663c-0.447,0.043-44.95,3.84-100.029-51.235
+			C14.743,94.38,7.238,67.395,10.384,41.259c0.394-3.464,1.263-6.95,2.652-10.593c2.462-6.277,5.812-10.547,8.181-13.02l5.443-5.497
+			c2.623-2.63,6.714-2.831,9.112-0.433l31.286,31.286c2.394,2.401,2.205,6.492-0.422,9.13L45.507,73.24l1.95,3.282
+			c1.084,1.829,2.23,3.879,3.454,6.106c5.812,10.482,13.764,24.83,29.121,40.173c15.317,15.325,29.644,23.27,40.094,29.067
+			c2.258,1.249,4.32,2.398,6.17,3.5l3.289,1.95l21.115-21.122c2.634-2.623,6.739-2.817,9.137-0.426l31.272,31.279
+			C193.5,169.446,193.31,173.537,190.683,176.164z"/>
+	</g>
+</g>
+</svg></span> Call
+      </button>
+    </div>
+  </div>
+  <div class="bg-white rounded-2xl shadow-md p-4 m-2">
+    <!-- Header -->
+    <div class="flex justify-between items-center">
+      <div class="flex items-center justify-center w-16 h-16 rounded-xl bg-red-100">
+        <img class="w-12 h-12" src="assets/emergency.png" alt="">
+      </div>
+      <button class="favourite">
+        <svg xmlns="http://www.w3.org/2000/svg" height="36px" viewBox="0 -960 960 960" width="36px" fill="gray"><path d="m480-120-58-52q-101-91-167-157T150-447.5Q111-500 95.5-544T80-634q0-94 63-157t157-63q52 0 99 22t81 62q34-40 81-62t99-22q94 0 157 63t63 157q0 46-15.5 90T810-447.5Q771-395 705-329T538-172l-58 52Zm0-108q96-86 158-147.5t98-107q36-45.5 50-81t14-70.5q0-60-40-100t-100-40q-47 0-87 26.5T518-680h-76q-15-41-55-67.5T300-774q-60 0-100 40t-40 100q0 35 14 70.5t50 81q36 45.5 98 107T480-228Zm0-273Z"/></svg>
+      </button>
+    </div>
+
+    <!-- Content -->
+    <div class="mt-3">
+      <h2 class="font-hind font-bold text-lg">Anti-Corruption Helpline</h2>
+      <p class="font-roboto text-gray-500 text-sm">Anti-Corruption</p>
+      <p class="text-3xl font-bold mt-3">106</p>
+      <span class="inline-block bg-gray-100 text-gray-600 text-sm px-3 py-1 rounded-full mt-2">
+        Govt.
+      </span>
+    </div>
+
+    <!-- Actions -->
+    <div class="flex items-center gap-3 mt-4">
+      <button class="copy flex-1 border border-gray-300 text-gray-500 rounded-lg py-2 flex items-center justify-center gap-2 hover:bg-gray-50">
+        <span><svg fill="" width="16px" height="16px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="icon line" transform="rotate(180)matrix(-1, 0, 0, 1, 0, 0)" stroke="">
+
+<g id="SVGRepo_bgCarrier" stroke-width="0"/>
+
+<g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/>
+
+<g id="SVGRepo_iconCarrier">
+
+<path id="primary" d="M15,17v3a1,1,0,0,1-1,1H4a1,1,0,0,1-1-1V8A1,1,0,0,1,4,7H7" style="fill: none; stroke: gray; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1.5;"/>
+
+<rect id="primary-2" data-name="primary" x="7" y="3" width="12" height="14" rx="1" style="fill: none; stroke: gray; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1.5;"/>
+
+</g>
+
+</svg></span> Copy
+      </button>
+      <button class="call flex-1 bg-green-500 text-white rounded-lg py-2 flex items-center justify-center gap-2 hover:bg-green-600">
+        <span><svg height="18px" width="18px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+	 viewBox="0 0 202.592 202.592">
+<g>
+	<g>
+		<path style="fill:#fff;" d="M198.048,160.105l-31.286-31.29c-6.231-6.206-16.552-6.016-23.001,0.433l-15.761,15.761
+			c-0.995-0.551-2.026-1.124-3.11-1.732c-9.953-5.515-23.577-13.074-37.914-27.421C72.599,101.48,65.03,87.834,59.5,77.874
+			c-0.587-1.056-1.145-2.072-1.696-3.038l10.579-10.565l5.2-5.207c6.46-6.46,6.639-16.778,0.419-23.001L42.715,4.769
+			c-6.216-6.216-16.541-6.027-23.001,0.433l-8.818,8.868l0.243,0.24c-2.956,3.772-5.429,8.124-7.265,12.816
+			c-1.696,4.466-2.752,8.729-3.235,12.998c-4.13,34.25,11.52,65.55,53.994,108.028c58.711,58.707,106.027,54.273,108.067,54.055
+			c4.449-0.53,8.707-1.593,13.038-3.275c4.652-1.818,9.001-4.284,12.769-7.233l0.193,0.168l8.933-8.747
+			C204.079,176.661,204.265,166.343,198.048,160.105z M190.683,176.164l-3.937,3.93l-1.568,1.507
+			c-2.469,2.387-6.743,5.74-12.984,8.181c-3.543,1.364-7.036,2.24-10.59,2.663c-0.447,0.043-44.95,3.84-100.029-51.235
+			C14.743,94.38,7.238,67.395,10.384,41.259c0.394-3.464,1.263-6.95,2.652-10.593c2.462-6.277,5.812-10.547,8.181-13.02l5.443-5.497
+			c2.623-2.63,6.714-2.831,9.112-0.433l31.286,31.286c2.394,2.401,2.205,6.492-0.422,9.13L45.507,73.24l1.95,3.282
+			c1.084,1.829,2.23,3.879,3.454,6.106c5.812,10.482,13.764,24.83,29.121,40.173c15.317,15.325,29.644,23.27,40.094,29.067
+			c2.258,1.249,4.32,2.398,6.17,3.5l3.289,1.95l21.115-21.122c2.634-2.623,6.739-2.817,9.137-0.426l31.272,31.279
+			C193.5,169.446,193.31,173.537,190.683,176.164z"/>
+	</g>
+</g>
+</svg></span> Call
+      </button>
+    </div>
+  </div>
+  <div class="bg-white rounded-2xl shadow-md p-4 m-2">
+    <!-- Header -->
+    <div class="flex justify-between items-center">
+      <div class="flex items-center justify-center w-16 h-16 rounded-xl bg-red-100">
+        <img class="w-12 h-12" src="assets/emergency.png" alt="">
+      </div>
+      <button class="favourite">
+        <svg xmlns="http://www.w3.org/2000/svg" height="36px" viewBox="0 -960 960 960" width="36px" fill="gray"><path d="m480-120-58-52q-101-91-167-157T150-447.5Q111-500 95.5-544T80-634q0-94 63-157t157-63q52 0 99 22t81 62q34-40 81-62t99-22q94 0 157 63t63 157q0 46-15.5 90T810-447.5Q771-395 705-329T538-172l-58 52Zm0-108q96-86 158-147.5t98-107q36-45.5 50-81t14-70.5q0-60-40-100t-100-40q-47 0-87 26.5T518-680h-76q-15-41-55-67.5T300-774q-60 0-100 40t-40 100q0 35 14 70.5t50 81q36 45.5 98 107T480-228Zm0-273Z"/></svg>
+      </button>
+    </div>
+
+    <!-- Content -->
+    <div class="mt-3">
+      <h2 class="font-hind font-bold text-lg">Electricity Helpline</h2>
+      <p class="font-roboto text-gray-500 text-sm">Electricity Outage</p>
+      <p class="text-3xl font-bold mt-3">16216</p>
+      <span class="inline-block bg-gray-100 text-gray-600 text-sm px-3 py-1 rounded-full mt-2">
+        Electricity
+      </span>
+    </div>
+
+    <!-- Actions -->
+    <div class="flex items-center gap-3 mt-4">
+      <button class="copy flex-1 border border-gray-300 text-gray-500 rounded-lg py-2 flex items-center justify-center gap-2 hover:bg-gray-50">
+        <span><svg fill="" width="16px" height="16px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="icon line" transform="rotate(180)matrix(-1, 0, 0, 1, 0, 0)" stroke="">
+
+<g id="SVGRepo_bgCarrier" stroke-width="0"/>
+
+<g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/>
+
+<g id="SVGRepo_iconCarrier">
+
+<path id="primary" d="M15,17v3a1,1,0,0,1-1,1H4a1,1,0,0,1-1-1V8A1,1,0,0,1,4,7H7" style="fill: none; stroke: gray; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1.5;"/>
+
+<rect id="primary-2" data-name="primary" x="7" y="3" width="12" height="14" rx="1" style="fill: none; stroke: gray; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1.5;"/>
+
+</g>
+
+</svg></span> Copy
+      </button>
+      <button class="call flex-1 bg-green-500 text-white rounded-lg py-2 flex items-center justify-center gap-2 hover:bg-green-600">
+        <span><svg height="18px" width="18px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+	 viewBox="0 0 202.592 202.592">
+<g>
+	<g>
+		<path style="fill:#fff;" d="M198.048,160.105l-31.286-31.29c-6.231-6.206-16.552-6.016-23.001,0.433l-15.761,15.761
+			c-0.995-0.551-2.026-1.124-3.11-1.732c-9.953-5.515-23.577-13.074-37.914-27.421C72.599,101.48,65.03,87.834,59.5,77.874
+			c-0.587-1.056-1.145-2.072-1.696-3.038l10.579-10.565l5.2-5.207c6.46-6.46,6.639-16.778,0.419-23.001L42.715,4.769
+			c-6.216-6.216-16.541-6.027-23.001,0.433l-8.818,8.868l0.243,0.24c-2.956,3.772-5.429,8.124-7.265,12.816
+			c-1.696,4.466-2.752,8.729-3.235,12.998c-4.13,34.25,11.52,65.55,53.994,108.028c58.711,58.707,106.027,54.273,108.067,54.055
+			c4.449-0.53,8.707-1.593,13.038-3.275c4.652-1.818,9.001-4.284,12.769-7.233l0.193,0.168l8.933-8.747
+			C204.079,176.661,204.265,166.343,198.048,160.105z M190.683,176.164l-3.937,3.93l-1.568,1.507
+			c-2.469,2.387-6.743,5.74-12.984,8.181c-3.543,1.364-7.036,2.24-10.59,2.663c-0.447,0.043-44.95,3.84-100.029-51.235
+			C14.743,94.38,7.238,67.395,10.384,41.259c0.394-3.464,1.263-6.95,2.652-10.593c2.462-6.277,5.812-10.547,8.181-13.02l5.443-5.497
+			c2.623-2.63,6.714-2.831,9.112-0.433l31.286,31.286c2.394,2.401,2.205,6.492-0.422,9.13L45.507,73.24l1.95,3.282
+			c1.084,1.829,2.23,3.879,3.454,6.106c5.812,10.482,13.764,24.83,29.121,40.173c15.317,15.325,29.644,23.27,40.094,29.067
+			c2.258,1.249,4.32,2.398,6.17,3.5l3.289,1.95l21.115-21.122c2.634-2.623,6.739-2.817,9.137-0.426l31.272,31.279
+			C193.5,169.446,193.31,173.537,190.683,176.164z"/>
+	</g>
+</g>
+</svg></span> Call
+      </button>
+    </div>
+  </div>
+  <div class="bg-white rounded-2xl shadow-md p-4 m-2">
+    <!-- Header -->
+    <div class="flex justify-between items-center">
+      <div class="flex items-center justify-center w-16 h-16 rounded-xl bg-red-100">
+        <img class="w-12 h-12" src="assets/brac.png" alt="">
+      </div>
+      <button class="favourite">
+        <svg xmlns="http://www.w3.org/2000/svg" height="36px" viewBox="0 -960 960 960" width="36px" fill="gray"><path d="m480-120-58-52q-101-91-167-157T150-447.5Q111-500 95.5-544T80-634q0-94 63-157t157-63q52 0 99 22t81 62q34-40 81-62t99-22q94 0 157 63t63 157q0 46-15.5 90T810-447.5Q771-395 705-329T538-172l-58 52Zm0-108q96-86 158-147.5t98-107q36-45.5 50-81t14-70.5q0-60-40-100t-100-40q-47 0-87 26.5T518-680h-76q-15-41-55-67.5T300-774q-60 0-100 40t-40 100q0 35 14 70.5t50 81q36 45.5 98 107T480-228Zm0-273Z"/></svg>
+      </button>
+    </div>
+
+    <!-- Content -->
+    <div class="mt-3">
+      <h2 class="font-hind font-bold text-lg">Brac Helpline</h2>
+      <p class="font-roboto text-gray-500 text-sm">Brac</p>
+      <p class="text-3xl font-bold mt-3">16445</p>
+      <span class="inline-block bg-gray-100 text-gray-600 text-sm px-3 py-1 rounded-full mt-2">
+        NGO
+      </span>
+    </div>
+
+    <!-- Actions -->
+    <div class="flex items-center gap-3 mt-4">
+      <button class="copy flex-1 border border-gray-300 text-gray-500 rounded-lg py-2 flex items-center justify-center gap-2 hover:bg-gray-50">
+        <span><svg fill="" width="16px" height="16px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="icon line" transform="rotate(180)matrix(-1, 0, 0, 1, 0, 0)" stroke="">
+
+<g id="SVGRepo_bgCarrier" stroke-width="0"/>
+
+<g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/>
+
+<g id="SVGRepo_iconCarrier">
+
+<path id="primary" d="M15,17v3a1,1,0,0,1-1,1H4a1,1,0,0,1-1-1V8A1,1,0,0,1,4,7H7" style="fill: none; stroke: gray; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1.5;"/>
+
+<rect id="primary-2" data-name="primary" x="7" y="3" width="12" height="14" rx="1" style="fill: none; stroke: gray; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1.5;"/>
+
+</g>
+
+</svg></span> Copy
+      </button>
+      <button class="call flex-1 bg-green-500 text-white rounded-lg py-2 flex items-center justify-center gap-2 hover:bg-green-600">
+        <span><svg height="18px" width="18px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+	 viewBox="0 0 202.592 202.592">
+<g>
+	<g>
+		<path style="fill:#fff;" d="M198.048,160.105l-31.286-31.29c-6.231-6.206-16.552-6.016-23.001,0.433l-15.761,15.761
+			c-0.995-0.551-2.026-1.124-3.11-1.732c-9.953-5.515-23.577-13.074-37.914-27.421C72.599,101.48,65.03,87.834,59.5,77.874
+			c-0.587-1.056-1.145-2.072-1.696-3.038l10.579-10.565l5.2-5.207c6.46-6.46,6.639-16.778,0.419-23.001L42.715,4.769
+			c-6.216-6.216-16.541-6.027-23.001,0.433l-8.818,8.868l0.243,0.24c-2.956,3.772-5.429,8.124-7.265,12.816
+			c-1.696,4.466-2.752,8.729-3.235,12.998c-4.13,34.25,11.52,65.55,53.994,108.028c58.711,58.707,106.027,54.273,108.067,54.055
+			c4.449-0.53,8.707-1.593,13.038-3.275c4.652-1.818,9.001-4.284,12.769-7.233l0.193,0.168l8.933-8.747
+			C204.079,176.661,204.265,166.343,198.048,160.105z M190.683,176.164l-3.937,3.93l-1.568,1.507
+			c-2.469,2.387-6.743,5.74-12.984,8.181c-3.543,1.364-7.036,2.24-10.59,2.663c-0.447,0.043-44.95,3.84-100.029-51.235
+			C14.743,94.38,7.238,67.395,10.384,41.259c0.394-3.464,1.263-6.95,2.652-10.593c2.462-6.277,5.812-10.547,8.181-13.02l5.443-5.497
+			c2.623-2.63,6.714-2.831,9.112-0.433l31.286,31.286c2.394,2.401,2.205,6.492-0.422,9.13L45.507,73.24l1.95,3.282
+			c1.084,1.829,2.23,3.879,3.454,6.106c5.812,10.482,13.764,24.83,29.121,40.173c15.317,15.325,29.644,23.27,40.094,29.067
+			c2.258,1.249,4.32,2.398,6.17,3.5l3.289,1.95l21.115-21.122c2.634-2.623,6.739-2.817,9.137-0.426l31.272,31.279
+			C193.5,169.446,193.31,173.537,190.683,176.164z"/>
+	</g>
+</g>
+</svg></span> Call
+      </button>
+    </div>
+  </div>
+  <div class="bg-white rounded-2xl shadow-md p-4 m-2">
+    <!-- Header -->
+    <div class="flex justify-between items-center">
+      <div class="flex items-center justify-center w-16 h-16 rounded-xl bg-red-100">
+        <img class="w-12 h-12" src="assets/Bangladesh-Railway.png" alt="">
+      </div>
+      <button class="favourite">
+        <svg xmlns="http://www.w3.org/2000/svg" height="36px" viewBox="0 -960 960 960" width="36px" fill="gray"><path d="m480-120-58-52q-101-91-167-157T150-447.5Q111-500 95.5-544T80-634q0-94 63-157t157-63q52 0 99 22t81 62q34-40 81-62t99-22q94 0 157 63t63 157q0 46-15.5 90T810-447.5Q771-395 705-329T538-172l-58 52Zm0-108q96-86 158-147.5t98-107q36-45.5 50-81t14-70.5q0-60-40-100t-100-40q-47 0-87 26.5T518-680h-76q-15-41-55-67.5T300-774q-60 0-100 40t-40 100q0 35 14 70.5t50 81q36 45.5 98 107T480-228Zm0-273Z"/></svg>
+      </button>
+    </div>
+
+    <!-- Content -->
+    <div class="mt-3">
+      <h2 class="font-hind font-bold text-lg">Bangladesh Railway Helpline </h2>
+      <p class="font-roboto text-gray-500 text-sm">Bangladesh Railway</p>
+      <p class="text-3xl font-bold mt-3">163</p>
+      <span class="inline-block bg-gray-100 text-gray-600 text-sm px-3 py-1 rounded-full mt-2">
+        Travel
+      </span>
+    </div>
+
+    <!-- Actions -->
+    <div class="flex items-center gap-3 mt-4">
+      <button class="copy flex-1 border border-gray-300 text-gray-500 rounded-lg py-2 flex items-center justify-center gap-2 hover:bg-gray-50">
+        <span><svg fill="" width="16px" height="16px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="icon line" transform="rotate(180)matrix(-1, 0, 0, 1, 0, 0)" stroke="">
+
+<g id="SVGRepo_bgCarrier" stroke-width="0"/>
+
+<g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/>
+
+<g id="SVGRepo_iconCarrier">
+
+<path id="primary" d="M15,17v3a1,1,0,0,1-1,1H4a1,1,0,0,1-1-1V8A1,1,0,0,1,4,7H7" style="fill: none; stroke: gray; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1.5;"/>
+
+<rect id="primary-2" data-name="primary" x="7" y="3" width="12" height="14" rx="1" style="fill: none; stroke: gray; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1.5;"/>
+
+</g>
+
+</svg></span> Copy
+      </button>
+      <button class="call flex-1 bg-green-500 text-white rounded-lg py-2 flex items-center justify-center gap-2 hover:bg-green-600">
+        <span><svg height="18px" width="18px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+	 viewBox="0 0 202.592 202.592">
+<g>
+	<g>
+		<path style="fill:#fff;" d="M198.048,160.105l-31.286-31.29c-6.231-6.206-16.552-6.016-23.001,0.433l-15.761,15.761
+			c-0.995-0.551-2.026-1.124-3.11-1.732c-9.953-5.515-23.577-13.074-37.914-27.421C72.599,101.48,65.03,87.834,59.5,77.874
+			c-0.587-1.056-1.145-2.072-1.696-3.038l10.579-10.565l5.2-5.207c6.46-6.46,6.639-16.778,0.419-23.001L42.715,4.769
+			c-6.216-6.216-16.541-6.027-23.001,0.433l-8.818,8.868l0.243,0.24c-2.956,3.772-5.429,8.124-7.265,12.816
+			c-1.696,4.466-2.752,8.729-3.235,12.998c-4.13,34.25,11.52,65.55,53.994,108.028c58.711,58.707,106.027,54.273,108.067,54.055
+			c4.449-0.53,8.707-1.593,13.038-3.275c4.652-1.818,9.001-4.284,12.769-7.233l0.193,0.168l8.933-8.747
+			C204.079,176.661,204.265,166.343,198.048,160.105z M190.683,176.164l-3.937,3.93l-1.568,1.507
+			c-2.469,2.387-6.743,5.74-12.984,8.181c-3.543,1.364-7.036,2.24-10.59,2.663c-0.447,0.043-44.95,3.84-100.029-51.235
+			C14.743,94.38,7.238,67.395,10.384,41.259c0.394-3.464,1.263-6.95,2.652-10.593c2.462-6.277,5.812-10.547,8.181-13.02l5.443-5.497
+			c2.623-2.63,6.714-2.831,9.112-0.433l31.286,31.286c2.394,2.401,2.205,6.492-0.422,9.13L45.507,73.24l1.95,3.282
+			c1.084,1.829,2.23,3.879,3.454,6.106c5.812,10.482,13.764,24.83,29.121,40.173c15.317,15.325,29.644,23.27,40.094,29.067
+			c2.258,1.249,4.32,2.398,6.17,3.5l3.289,1.95l21.115-21.122c2.634-2.623,6.739-2.817,9.137-0.426l31.272,31.279
+			C193.5,169.446,193.31,173.537,190.683,176.164z"/>
+	</g>
+</g>
+</svg></span> Call
+      </button>
+    </div>
+  </div>
+
+
+
+  </section>
+
+  <aside class="bg-white col-span-3">
+<div class="bg-[#ecfff0] rounded-2xl shadow-md p-4 m-2 mt-6">
+  <div class="flex justify-between items-center mb-3">
+    <div class="flex items-center gap-2 font-bold text-gray-700">
+      <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-gray-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" 
+          d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+      </svg>
+      Call History
+    </div>
+    <button id="clearHistory" 
+      class="bg-green-500 hover:bg-green-600 text-white px-4 py-1 rounded-full text-sm font-semibold">
+      Clear
+    </button>
+  </div>
+
+  <div id="history" class="space-y-2 text-sm text-gray-700"></div>
+</div>
+
+  </aside>
+</div>
+</main>
+
+
+<script>
+
+  // Heart counter for favourites
+  const heartCounter = document.getElementById("heart");
+
+  // Copy counter
+  const copyCounter = document.querySelector(".btn.text-white");
+
+  // Favourite buttons
+  const favouriteButtons = document.querySelectorAll(".favourite");
+  favouriteButtons.forEach(button => {
+    button.addEventListener("click", () => {
+      let count = parseInt(heartCounter.textContent) || 0;
+      count++;
+      heartCounter.innerHTML = `${count} <img class="w-7" src="assets/heart.png" alt="">`;
+    });
+  });
+
+  // Copy buttons
+  const copyButtons = document.querySelectorAll(".copy");
+  copyButtons.forEach(button => {
+    button.addEventListener("click", () => {
+      // Find the number in the card
+      const numberEl = button.closest("div.bg-white").querySelector("p.text-3xl");
+      const number = numberEl.textContent.trim();
+
+      // Copy to clipboard
+      navigator.clipboard.writeText(number).then(() => {
+        alert(`Number copied: ${number}`);
+
+        // Update copy counter
+        let count = parseInt(copyCounter.textContent) || 0;
+        count++;
+        copyCounter.innerHTML = `${count} <span>Copy</span>`;
+      }).catch(err => {
+        console.error("Failed to copy:", err);
+      });
+    });
+  });
+
+
+  function getCoins() {
+    return parseInt(document.getElementById("coin").innerText);
+  }
+
+  function setCoins(value) {
+    document.getElementById("coin").innerHTML = 
+      value + ' <img class="w-7" src="assets/coin.png" alt="">';
+  }
+
+  function addHistory(title, number) {
+    const now = new Date();
+    const time = now.toLocaleTimeString([], { 
+      hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: true 
+    });
+
+    const historyItem = document.createElement("div");
+    historyItem.className = "flex justify-between items-center bg-white rounded-xl p-3 shadow-sm";
+
+    historyItem.innerHTML = `
+      <div>
+        <p class="font-inter font-semibold">${title}</p>
+        <p class="font-hind text-gray-500 text-xs">${number}</p>
+      </div>
+      <span class="font-hind text-gray-500 text-xs">${time}</span>
+    `;
+
+    document.getElementById("history").prepend(historyItem);
+  }
+
+  // Handle call buttons
+  document.querySelectorAll(".call").forEach(btn => {
+    btn.addEventListener("click", () => {
+      const card = btn.closest("div.bg-white"); 
+      const title = card.querySelector("h2").innerText; 
+      const number = card.querySelector("p.text-3xl").innerText; 
+      let coins = getCoins();
+
+      if (coins >= 20) {
+        setCoins(coins - 20);
+        alert(`📞 Calling ${title} ${number}...`);
+        addHistory(title, number);
+      } else {
+        alert("Insufficient coin to call.");
+      }
+    });
+  });
+
+  // Clear history (only items, not header)
+  document.getElementById("clearHistory").addEventListener("click", () => {
+    document.getElementById("history").innerHTML = "";
+  });
+</script>
+
 </body>
 </html>
